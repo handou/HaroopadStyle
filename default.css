@@ -15,13 +15,14 @@
 */
 
 editor {
-    font-family: "微软雅黑", "Meiryo UI", "Malgun Gothic", "Segoe UI", "Trebuchet MS", Helvetica, sans-serif !important;
+    font-family:  Helvetica, sans-serif,"微软雅黑", "Meiryo UI", "Malgun Gothic", "Segoe UI", "Trebuchet MS" !important;
     text-shadow: 0 1px rgba(0, 0, 0, .8);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
-linenumber {}
+linenumber {
+}
 activeline {}
 
 /*
@@ -35,15 +36,34 @@ activeline {}
     font-style: bold;
     text-shadow: 0 1px rgba(0, 0, 0, .8);
 */
-header {}
-code {}
-blockquote {}
-li1 {}
-li2 {}
-li3 {}
+header {
+  color: #F5F57C;
+  font-family: bold;
+  text-shadow: 1px 1px rgba(0, 0, 0, 1);
+}
+code {
+  color: #AE81FF;
+}
+blockquote {
+  color: red;
+}
+li1 {
+  color: #32D9CB;
+  text-shadow: 1px 1px rgba(0, 0, 0, 1);
+}
+li2 {
+  color: #24ABC9;
+}
+li3 {
+  color: #92C2BB;
+}
 hr {}
 img {}
-a {}
+a {
+  color: #C342FF;
+}
 em {}
 i {}
-strong {}
+strong {
+  font-style: bold;
+}
